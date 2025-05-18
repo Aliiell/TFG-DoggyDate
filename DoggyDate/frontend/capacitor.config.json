@@ -1,0 +1,14 @@
+
+{
+  "appId": "com.doggydate.app",
+  "appName": "DoggyDate",
+  "webDir": "dist",
+  "server": {
+    "allowNavigation": ["http://localhost:3000/*", "http://*/*", "https://*/*"],
+    "androidScheme": "http",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
